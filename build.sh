@@ -1,7 +1,7 @@
-projectid=notional-portal-349616
+projectid=<prjid>
 namespace=apps
 gkecluster=myk8s
-zone=europe-west2-a
+zone=<zone>
 
 echo "Creating cluster"
 gcloud container clusters create $gkecluster --project $projectid --zone $zone --num-nodes=1
